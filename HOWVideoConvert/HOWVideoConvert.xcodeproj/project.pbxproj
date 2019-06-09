@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28682EFD22A78EF500EE20D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28682EFC22A78EF500EE20D5 /* AppDelegate.m */; };
+		28682EFF22A78EF900EE20D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28682EFE22A78EF900EE20D5 /* Assets.xcassets */; };
+		28682F0222A78EF900EE20D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28682F0022A78EF900EE20D5 /* MainMenu.xib */; };
+		28682F0522A78EF900EE20D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28682F0422A78EF900EE20D5 /* main.m */; };
+		28682F0E22A7A15100EE20D5 /* HOWAppMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28682F0D22A7A15100EE20D5 /* HOWAppMainWindowController.m */; };
+		2868304822AB924A00EE20D5 /* HOWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868304722AB924A00EE20D5 /* HOWBaseViewController.m */; };
+		2868304B22AB92A800EE20D5 /* HOWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868304A22AB92A800EE20D5 /* HOWMainViewController.m */; };
+		2868308722AB949D00EE20D5 /* HOWBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868308622AB949D00EE20D5 /* HOWBaseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28682EF822A78EF500EE20D5 /* HOWVideoConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOWVideoConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28682EFB22A78EF500EE20D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28682EFC22A78EF500EE20D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28682EFE22A78EF900EE20D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28682F0122A78EF900EE20D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28682F0322A78EF900EE20D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28682F0422A78EF900EE20D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28682F0622A78EF900EE20D5 /* HOWVideoConvert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HOWVideoConvert.entitlements; sourceTree = "<group>"; };
+		28682F0C22A7A15100EE20D5 /* HOWAppMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOWAppMainWindowController.h; sourceTree = "<group>"; };
+		28682F0D22A7A15100EE20D5 /* HOWAppMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOWAppMainWindowController.m; sourceTree = "<group>"; };
+		2868304622AB924A00EE20D5 /* HOWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOWBaseViewController.h; sourceTree = "<group>"; };
+		2868304722AB924A00EE20D5 /* HOWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOWBaseViewController.m; sourceTree = "<group>"; };
+		2868304922AB92A800EE20D5 /* HOWMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOWMainViewController.h; sourceTree = "<group>"; };
+		2868304A22AB92A800EE20D5 /* HOWMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOWMainViewController.m; sourceTree = "<group>"; };
+		2868308522AB949D00EE20D5 /* HOWBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOWBaseView.h; sourceTree = "<group>"; };
+		2868308622AB949D00EE20D5 /* HOWBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOWBaseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28682EF522A78EF500EE20D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28682EEF22A78EF500EE20D5 = {
+			isa = PBXGroup;
+			children = (
+				28682EFA22A78EF500EE20D5 /* HOWVideoConvert */,
+				28682EF922A78EF500EE20D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28682EF922A78EF500EE20D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28682EF822A78EF500EE20D5 /* HOWVideoConvert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28682EFA22A78EF500EE20D5 /* HOWVideoConvert */ = {
+			isa = PBXGroup;
+			children = (
+				28682EFB22A78EF500EE20D5 /* AppDelegate.h */,
+				28682EFC22A78EF500EE20D5 /* AppDelegate.m */,
+				28682EFE22A78EF900EE20D5 /* Assets.xcassets */,
+				28682F0022A78EF900EE20D5 /* MainMenu.xib */,
+				28682F0322A78EF900EE20D5 /* Info.plist */,
+				28682F0422A78EF900EE20D5 /* main.m */,
+				28682F0622A78EF900EE20D5 /* HOWVideoConvert.entitlements */,
+				28682F0C22A7A15100EE20D5 /* HOWAppMainWindowController.h */,
+				28682F0D22A7A15100EE20D5 /* HOWAppMainWindowController.m */,
+				2868304922AB92A800EE20D5 /* HOWMainViewController.h */,
+				2868304A22AB92A800EE20D5 /* HOWMainViewController.m */,
+				2868304522AB924A00EE20D5 /* CommonUI */,
+			);
+			path = HOWVideoConvert;
+			sourceTree = "<group>";
+		};
+		2868304522AB924A00EE20D5 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				2868304622AB924A00EE20D5 /* HOWBaseViewController.h */,
+				2868304722AB924A00EE20D5 /* HOWBaseViewController.m */,
+				2868308522AB949D00EE20D5 /* HOWBaseView.h */,
+				2868308622AB949D00EE20D5 /* HOWBaseView.m */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28682EF722A78EF500EE20D5 /* HOWVideoConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28682F0922A78EF900EE20D5 /* Build configuration list for PBXNativeTarget "HOWVideoConvert" */;
+			buildPhases = (
+				28682EF422A78EF500EE20D5 /* Sources */,
+				28682EF522A78EF500EE20D5 /* Frameworks */,
+				28682EF622A78EF500EE20D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOWVideoConvert;
+			productName = HOWVideoConvert;
+			productReference = 28682EF822A78EF500EE20D5 /* HOWVideoConvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28682EF022A78EF500EE20D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HOW;
+				TargetAttributes = {
+					28682EF722A78EF500EE20D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 28682EF322A78EF500EE20D5 /* Build configuration list for PBXProject "HOWVideoConvert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28682EEF22A78EF500EE20D5;
+			productRefGroup = 28682EF922A78EF500EE20D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28682EF722A78EF500EE20D5 /* HOWVideoConvert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28682EF622A78EF500EE20D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28682EFF22A78EF900EE20D5 /* Assets.xcassets in Resources */,
+				28682F0222A78EF900EE20D5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28682EF422A78EF500EE20D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28682F0E22A7A15100EE20D5 /* HOWAppMainWindowController.m in Sources */,
+				28682F0522A78EF900EE20D5 /* main.m in Sources */,
+				2868308722AB949D00EE20D5 /* HOWBaseView.m in Sources */,
+				2868304822AB924A00EE20D5 /* HOWBaseViewController.m in Sources */,
+				28682EFD22A78EF500EE20D5 /* AppDelegate.m in Sources */,
+				2868304B22AB92A800EE20D5 /* HOWMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28682F0022A78EF900EE20D5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28682F0122A78EF900EE20D5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28682F0722A78EF900EE20D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28682F0822A78EF900EE20D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28682F0A22A78EF900EE20D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOWVideoConvert/HOWVideoConvert.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HOWVideoConvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = one.way.HOWVideoConvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28682F0B22A78EF900EE20D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOWVideoConvert/HOWVideoConvert.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HOWVideoConvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = one.way.HOWVideoConvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28682EF322A78EF500EE20D5 /* Build configuration list for PBXProject "HOWVideoConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28682F0722A78EF900EE20D5 /* Debug */,
+				28682F0822A78EF900EE20D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28682F0922A78EF900EE20D5 /* Build configuration list for PBXNativeTarget "HOWVideoConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28682F0A22A78EF900EE20D5 /* Debug */,
+				28682F0B22A78EF900EE20D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28682EF022A78EF500EE20D5 /* Project object */;
+}
